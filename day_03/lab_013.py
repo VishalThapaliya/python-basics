@@ -11,5 +11,17 @@ if side1 == side2 == side3:
     print("Equilateral")
 elif side1 == side2 or side2 == side3 or side1 == side3:
     print("Isosceles")
+# Factorial
+# n = 5;        n = 3
+# 5*4*3*2*1 = 120;      3*2*1 = 6
+
+number = int(input("Enter a number: "))
+
+fact = 1
+if number <= 0:
+    print(f"Factorial of {number} = ", fact)
 else:
     print("Scalene")
+    for i in range(1,  number + 1):
+        fact = fact * i
+    print(f"Factorial of {number} = ", fact)
