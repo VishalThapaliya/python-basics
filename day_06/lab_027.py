@@ -25,3 +25,9 @@ with open("hello.txt", "w") as file:
 # Append
 with open("hello.txt", "a") as file:
     file.write("\nI am learning Python to master QA Automation Testing")
+
+
+# Read line by line
+with open("hello.txt", "r") as file:
+    for line in file:
+        print(line.strip())
