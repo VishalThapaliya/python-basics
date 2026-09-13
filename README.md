@@ -51,20 +51,18 @@ python-basics/
 │   ├── lab_020.py
 │   └── ...
 │
-├── day_06_exceptions/
+├── day_06/
+│   └── lab_025.py
 │   └── ...
 │
-├── day_07_modules/
+├── day_07/
+│   └── lab_028.py
 │   └── ...
 │
-├── day_08_file_io/
-│   └── ...
-│
-├── day_09_project/
-│   └── ...
-│
-├── day_10_debugging/
-│   └── ...
+├── student_notes/
+│   └── main.py
+│   └── notes.py
+│   └── notes.txt
 │
 ├── main.py
 └── README.md
